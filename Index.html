@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="pt-br">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>uTask 2.0</title>  <!-- título da página -->
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>&nbsp;
+      <h1 class="row"><img src="./blue_logo.png" height="80" width="46">&nbsp;&nbsp;&nbsp;
+          uTask 2.0</h1>
+      </header>
+      <div class="row">
+        <form class="form-inline col-sm-offset-3">
+          <div class="input-group" style="text-align: center; height: 29px;"> <span
+
+              class="input-group-addon"> </span> <span></span>
+            <hr style="color: #3333ff;"><span><br>
+            </span></div>
+          <div class="input-group" style="text-align: center; height: 29px;"><span><input
+
+                class="form-control" placeholder="inserir uma tarefa..." id="box" 
+                style="width: 30vw" type="text"><br> <!-- caixa para entrada da atividade -->
+
+              </span></div>
+          <div class="form-group" style="text-align: center;"> <input class="btn btn-primary form-control"
+
+value="Adicionar" style="width: 10vw" onclick="add_item()" type="button"></div>
+          <div class="form-group" style="text-align: center;">
+            <hr style="color: #3333ff;"><br>
+          </div>
+        </form>
+      </div>
+         <div class="row">
+            <ul id="list_item">
+            </ul>
+          </div>
+       </div>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+
+  </html>
